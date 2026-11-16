@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Classic Scales of Justice / Professional Excellence -->
+  <path d="M24 8 V38" stroke="#4A1525" stroke-width="2.2" stroke-linecap="round"/>
+  <path d="M12 15 L24 13 L36 15" stroke="#C6A664" stroke-width="2" stroke-linecap="round"/>
+  <!-- Left Pan -->
+  <line x1="12" y1="15" x2="8" y2="24" stroke="#4A1525" stroke-width="1.2"/>
+  <line x1="12" y1="15" x2="16" y2="24" stroke="#4A1525" stroke-width="1.2"/>
+  <path d="M6 24 Q12 28 18 24 Z" fill="#FDFBF7" stroke="#C6A664" stroke-width="1.5"/>
+  <!-- Right Pan -->
+  <line x1="36" y1="15" x2="32" y2="24" stroke="#4A1525" stroke-width="1.2"/>
+  <line x1="36" y1="15" x2="40" y2="24" stroke="#4A1525" stroke-width="1.2"/>
+  <path d="M30 24 Q36 28 42 24 Z" fill="#FDFBF7" stroke="#C6A664" stroke-width="1.5"/>
+  <!-- Pedestal -->
+  <line x1="16" y1="38" x2="32" y2="38" stroke="#4A1525" stroke-width="2.5" stroke-linecap="round"/>
+</svg>
+

@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" fill="none">
+  <defs>
+    <linearGradient id="ogBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4A1525" />
+      <stop offset="100%" stop-color="#240710" />
+    </linearGradient>
+    <linearGradient id="ogGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F2E3C6" />
+      <stop offset="50%" stop-color="#C6A664" />
+      <stop offset="100%" stop-color="#997736" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#ogBg)"/>
+  <rect x="40" y="40" width="1120" height="550" rx="16" stroke="url(#ogGold)" stroke-width="2" stroke-opacity="0.35"/>
+
+  <!-- Center Emblem -->
+  <g transform="translate(600, 160)">
+    <circle cx="0" cy="0" r="54" fill="#380F1B" stroke="url(#ogGold)" stroke-width="2.5"/>
+    <!-- Scales -->
+    <line x1="0" y1="-26" x2="0" y2="28" stroke="#C6A664" stroke-width="3" stroke-linecap="round"/>
+    <path d="M-28 -10 L0 -16 L28 -10" stroke="#C6A664" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="-28" y1="-10" x2="-34" y2="4" stroke="#C6A664" stroke-width="1.8"/>
+    <line x1="-28" y1="-10" x2="-22" y2="4" stroke="#C6A664" stroke-width="1.8"/>
+    <path d="M-38 4 Q-28 12 -18 4 Z" fill="#C6A664" fill-opacity="0.3" stroke="#C6A664" stroke-width="1.8"/>
+    <line x1="28" y1="-10" x2="22" y2="4" stroke="#C6A664" stroke-width="1.8"/>
+    <line x1="28" y1="-10" x2="34" y2="4" stroke="#C6A664" stroke-width="1.8"/>
+    <path d="M18 4 Q28 12 38 4 Z" fill="#C6A664" fill-opacity="0.3" stroke="#C6A664" stroke-width="1.8"/>
+    <line x1="-18" y1="28" x2="18" y2="28" stroke="#C6A664" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- Title & Subtitle -->
+  <text x="600" y="290" text-anchor="middle" font-family="'Tajawal', sans-serif" font-size="44" font-weight="700" fill="#FDFBF7">
+    مكتب عبدالله الأحمد للمحاماة والاستشارات القانونية
+  </text>
+  
+  <text x="600" y="345" text-anchor="middle" font-family="'Tajawal', sans-serif" font-size="24" font-weight="500" fill="#C6A664">
+    دولة الكويت
+  </text>
+
+  <text x="600" y="410" text-anchor="middle" font-family="'Tajawal', sans-serif" font-size="22" font-weight="400" fill="#EADFD6">
+    استشارات قانونية وتمثيل مهني بثقة واهتمام
+  </text>
+
+  <!-- Contact Pill -->
+  <g transform="translate(600, 480)">
+    <rect x="-180" y="-24" width="360" height="48" rx="24" fill="#25D366" />
+    <text x="0" y="7" text-anchor="middle" font-family="'Tajawal', sans-serif" font-size="19" font-weight="700" fill="#FFFFFF">
+      تواصل عبر واتساب: 4161 9991 965+
+    </text>
+  </g>
+</svg>
+

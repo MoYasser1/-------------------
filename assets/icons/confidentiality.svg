@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Shield with Lock for Confidentiality -->
+  <path d="M24 4 L40 10 V22 C40 33 33 41 24 44 C15 41 8 33 8 22 V10 L24 4 Z" stroke="#4A1525" stroke-width="2" fill="#FDFBF7"/>
+  <!-- Lock Body -->
+  <rect x="18" y="24" width="12" height="9" rx="2" stroke="#C6A664" stroke-width="2" fill="#FAF6EE"/>
+  <!-- Lock Shackle -->
+  <path d="M21 24 V20 C21 18.3431 22.3431 17 24 17 C25.6569 17 27 18.3431 27 20 V24" stroke="#C6A664" stroke-width="2"/>
+  <!-- Keyhole -->
+  <circle cx="24" cy="28.5" r="1" fill="#4A1525"/>
+</svg>
+

@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 750" fill="none">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4A1525" />
+      <stop offset="60%" stop-color="#2D0B16" />
+      <stop offset="100%" stop-color="#19040B" />
+    </linearGradient>
+    <radialGradient id="glowGrad" cx="50%" cy="35%" r="60%">
+      <stop offset="0%" stop-color="#C6A664" stop-opacity="0.25" />
+      <stop offset="70%" stop-color="#C6A664" stop-opacity="0.0" />
+    </radialGradient>
+    <linearGradient id="goldLine" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E5D1A4" />
+      <stop offset="50%" stop-color="#C6A664" />
+      <stop offset="100%" stop-color="#9C7938" />
+    </linearGradient>
+  </defs>
+
+  <!-- Luxury Background -->
+  <rect width="600" height="750" fill="url(#bgGrad)"/>
+  <rect width="600" height="750" fill="url(#glowGrad)"/>
+
+  <!-- Elegant Inner Border -->
+  <rect x="24" y="24" width="552" height="702" rx="12" stroke="url(#goldLine)" stroke-width="1.5" stroke-opacity="0.4" fill="none"/>
+
+  <!-- Silhouette / Elegant Portrait Form -->
+  <g transform="translate(150, 160)" opacity="0.92">
+    <!-- Subtle Head Outline / Aura -->
+    <circle cx="150" cy="110" r="70" fill="#3D121E" stroke="url(#goldLine)" stroke-width="2" stroke-opacity="0.6"/>
+    
+    <!-- Torso / Shoulders with Suit Collar Line -->
+    <path d="M50 340 C50 240, 100 200, 150 200 C200 200, 250 240, 250 340 Z" fill="#360F1A" stroke="url(#goldLine)" stroke-width="1.5" stroke-opacity="0.5"/>
+    
+    <!-- Lapel / V-neck Collar -->
+    <path d="M120 200 L150 260 L180 200" stroke="url(#goldLine)" stroke-width="2" stroke-linecap="round" fill="none"/>
+    <line x1="150" y1="260" x2="150" y2="330" stroke="url(#goldLine)" stroke-width="1.5" stroke-opacity="0.7"/>
+    
+    <!-- Tie / Center Accent -->
+    <polygon points="144,260 156,260 154,320 150,335 146,320" fill="url(#goldLine)" fill-opacity="0.4"/>
+  </g>
+
+  <!-- Monogram & Label in Gold -->
+  <g transform="translate(300, 560)" text-anchor="middle">
+    <!-- Seal Circle -->
+    <circle cx="0" cy="0" r="32" fill="#4A1525" stroke="url(#goldLine)" stroke-width="2"/>
+    <!-- Scales Icon in Seal -->
+    <path d="M-12 -6 L0 -9 L12 -6 M0 -9 V14 M-14 14 H14" stroke="#E5D1A4" stroke-width="1.5" stroke-linecap="round"/>
+    
+    <!-- Title -->
+    <text y="54" font-family="'Tajawal', 'IBM Plex Sans Arabic', sans-serif" font-size="20" font-weight="700" fill="#FDFBF7" letter-spacing="0.5">
+      الأستاذ عبدالله الأحمد
+    </text>
+    <text y="80" font-family="'Tajawal', 'IBM Plex Sans Arabic', sans-serif" font-size="14" font-weight="500" fill="#C6A664">
+      محامٍ ومستشار قانوني – دولة الكويت
+    </text>
+  </g>
+</svg>
+
