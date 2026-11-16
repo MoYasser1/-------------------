@@ -36,6 +36,13 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 
+  // تحديث رابط الخريطة من الإعدادات
+  if (config.mapUrl) {
+    document.querySelectorAll(".js-map-link").forEach(function (el) {
+      el.setAttribute("href", config.mapUrl);
+    });
+  }
+
   // 3. التحكم في قسم الخدمات القانونية طبقاً للتوجيهات:
   // "إذا لم تتوفر قائمة الخدمات، أخفِ هذا القسم مؤقتاً بدلاً من عرض معلومات افتراضية."
   const servicesSection = document.getElementById("services");

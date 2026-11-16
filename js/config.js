@@ -25,6 +25,8 @@ const SITE_CONFIG = {
   // العنوان الرسمي التفصيلي في دولة الكويت
   address: "مدينة الكويت – القبلة – شارع فهد السالم – برج المدينة 2 – الدور الأول (بجانب فرع بنك الكويت الوطني)",
   addressShort: "مدينة الكويت، القبلة، شارع فهد السالم، برج المدينة 2",
+  // رابط موقع المكتب على الخريطة
+  mapUrl: "https://maps.apple.com/place?address=Salhiya%20Street,%20Kuwait%20City,%20Al%20Kuwayt,%20Kuwait&coordinate=29.368740,47.970806&name=Salhiya%20Street&map=explore",
   googleMapsUrl: "https://www.google.com/maps/search/%D9%85%D9%83%D8%AA%D8%A8%20%D8%A7%D9%84%D9%85%D8%AD%D8%A7%D9%85%D9%8A%20%D8%B9%D8%A8%D8%AF%D8%A7%D9%84%D9%84%D9%87%20%D8%A7%D9%84%D8%A3%D8%AD%D9%85%D8%AF/@29.36874008178711,47.97080612182617,17z?hl=en",
 
   // روابط وسائل التواصل الاجتماعي (تظهر فقط الروابط التي تضع رابطها الفعلي هنا)
