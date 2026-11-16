@@ -58,7 +58,7 @@
 
 - **رقم الواتساب الرسمي:**
   ```javascript
-  WHATSAPP_NUMBER: "+96599914161"
+  WHATSAPP_NUMBER: "+96551205555"
   ```
 - **رسالة الترحيب الافتراضية للواتساب:**
   ```javascript
@@ -66,8 +66,8 @@
   ```
 - **رقم الاتصال المعروض:**
   ```javascript
-  phoneDisplay: "+965 9991 4161"
-  phoneCall: "+96599914161"
+  phoneDisplay: "+965 5120 5555"
+  phoneCall: "+96551205555"
   ```
 
 ---
